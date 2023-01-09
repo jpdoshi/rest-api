@@ -1,10 +1,12 @@
 # Initiate
 
-- Open terminal and type:
+install dependencies:
 
 ```shell
 npm install
 ```
+
+initiate server
 
 ```shell
 npm run dev
@@ -38,20 +40,28 @@ npm run dev
 
 # CRUD Operations
 
-- Create Data : Send POST request with body(in JSON format)
+- Create
 
-- Read Data   : Send GET request to host:port/api/data
+  Send POST request with body[in JSON]
 
-- Search Data : Send GET request with id
+- Read
 
-- Update Data : Send PUT request with id and body(in JSON)
+  Send GET request to host:port/api/data
 
-- Delete Data : Send DELETE request with id
+- Search
+
+  Send GET request with id
+
+- Update
+
+  Send PUT request with id and body[in JSON]
+
+- Delete
+
+  Send DELETE request with id
 
 # Take it to next level
 
 - Integrate applications and it is all yours
-
 - Modify datasets according to your need
-
 - Use database(like mongodb) to build scalable applications
